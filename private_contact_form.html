@@ -10,9 +10,6 @@
 
 <body>
     <header class="site-header">
-        <a class="logo-link" href="index.html">
-            <img src="images/logo.png" alt="Логотип" class="logo">
-        </a>
         <nav class="main-nav">
             <a href="index.html" data-page="index">Главная</a>
             <a href="about.html" data-page="about">О сайте</a>
@@ -28,28 +25,29 @@
             <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener">Что такое HTML?</a>
         </nav>
     </header>
-    <h3>Форма: личные контактные данные</h3>
 
-    <form action="https://www.bing.com/search" method="get" target="_blank" name="PersonalData">
-        <!-- Параметр для поисковика -->
-        <input type="hidden" name="q" value="contact_form">
+    <main class="main-gallery">
+        <h3>Форма: личные контактные данные</h3>
+        <form action="https://www.bing.com/search" method="get" target="_blank" name="PersonalData">
+            <input type="hidden" name="q" value="contact_form">
 
-        <p>Фамилия: <input type="text" name="last_name" value="" required></p>
-        <p>Имя: <input type="text" name="first_name" value="" required></p>
-        <p>Группа: <input type="text" name="group" value=""></p>
-        <p>Мобильный телефон: <input type="text" name="phone" value=""></p>
-        <p>Email: <input type="text" name="email" value=""></p>
+            <p>Фамилия: <input type="text" name="last_name" value="" required></p>
+            <p>Имя: <input type="text" name="first_name" value="" required></p>
+            <p>Группа: <input type="text" name="group" value=""></p>
+            <p>Мобильный телефон: <input type="text" name="phone" value=""></p>
+            <p>Email: <input type="text" name="email" value=""></p>
 
-        <p>Дата отправки: <input type="date" name="send_date" value="2025-10-14"></p>
-        <p>Пароль для подтверждения: <input type="password" name="password" value=""></p>
+            <p>Дата отправки: <input type="date" name="send_date" value="2025-10-14"></p>
+            <p>Пароль для подтверждения: <input type="password" name="password" value=""></p>
 
-        <input type="hidden" name="form_type" value="contacts">
+            <input type="hidden" name="form_type" value="contacts">
 
-        <p>
-            <input type="reset" value="Сбросить">
-            <input type="submit" value="Отправить">
-        </p>
-    </form>
+            <p>
+                <input type="reset" value="Сбросить">
+                <input type="submit" value="Отправить">
+            </p>
+        </form>
+    </main>
 </body>
 
 </html>

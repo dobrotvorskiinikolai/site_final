@@ -10,9 +10,6 @@
 
 <body>
     <header class="site-header">
-        <a class="logo-link" href="index.html">
-            <img src="images/logo.png" alt="Логотип" class="logo">
-        </a>
         <nav class="main-nav">
             <a href="index.html" data-page="index">Главная</a>
             <a href="about.html" data-page="about">О сайте</a>
@@ -28,52 +25,55 @@
             <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener">Что такое HTML?</a>
         </nav>
     </header>
-    <h3>Форма. Для оценки знаний HTML</h3>
-    <form action="https://www.google.com/search?" id="UserEnter" name="UserEnter" target="_blank">
-        <p>Имя: <input type="Text" name="first_name" size=20 value=""></p>
-        <p>Фамилия: <input type="Text" name="second_name" size=20 value=""></p>
-        <p>Отчество: <input type="Text" name="third_name" size=20 value=""></p>
-        <p>Возраст: <input type="Number" name="age" size=20 value="0"></p>
-        <p>Место проживания:
-            <input type="Radio" name="place" value="Moscow">Москва
-            <input type="Radio" name="place" value="Sankt-Petesburg" checked>Санкт-Петербург
-        </p>
 
-        <p>Стаж работы:
-            <input type="Checkbox" name="experience" value="10" checked>Фронтендером - 15
-            <input type="Checkbox" name="experience" value="20" checked>Бэкендером -20
-            <input type="Checkbox" name="experience" value="30" checked>Фуллстэк -30
-        </p>
+    <main class="main-gallery">
+        <h3>Форма. Для оценки знаний HTML</h3>
+        <form action="https://www.google.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+            <p>Имя: <input type="Text" name="first_name" size=20 value=""></p>
+            <p>Фамилия: <input type="Text" name="second_name" size=20 value=""></p>
+            <p>Отчество: <input type="Text" name="third_name" size=20 value=""></p>
+            <p>Возраст: <input type="Number" name="age" size=20 value="0"></p>
+            <p>Место проживания:
+                <input type="Radio" name="place" value="Moscow">Москва
+                <input type="Radio" name="place" value="Sankt-Petesburg" checked>Санкт-Петербург
+            </p>
 
-        <p>Уровень владения английским
-            <select name="languages">
-                <OPTION value="A1">A1</OPTION>
-                <OPTION value="A2">A2</OPTION>
-                <OPTION value="B1">B1</OPTION>
-                <OPTION value="B2">B2</OPTION>
-                <OPTION value="C1">C1</OPTION>
-                <OPTION value="C2">C2</OPTION>
+            <p>Стаж работы:
+                <input type="Checkbox" name="experience" value="10" checked>Фронтендером - 15
+                <input type="Checkbox" name="experience" value="20" checked>Бэкендером -20
+                <input type="Checkbox" name="experience" value="30" checked>Фуллстэк -30
+            </p>
 
-            </select>
-        </p>
+            <p>Уровень владения английским
+                <select name="languages">
+                    <OPTION value="A1">A1</OPTION>
+                    <OPTION value="A2">A2</OPTION>
+                    <OPTION value="B1">B1</OPTION>
+                    <OPTION value="B2">B2</OPTION>
+                    <OPTION value="C1">C1</OPTION>
+                    <OPTION value="C2">C2</OPTION>
 
-        <p> Дополнительная информация:
-            <br>
-            <TEXTAREA cols=80 rows=4 name="textarea">Расскажите о себе</TEXTAREA>
-        </p>
+                </select>
+            </p>
 
-        <p>Дата заполнения: <input type="date" name="user_date" value='2025-10-10'></p>
-        <p>Пароль: <input type="Password" name="password" size=9 value=""></p>
+            <p> Дополнительная информация:
+                <br>
+                <TEXTAREA cols=80 rows=4 name="textarea">Расскажите о себе</TEXTAREA>
+            </p>
 
-        <input type="hidden" name="function" value="page">
-        <input type="hidden" name="page_id" value="3">
+            <p>Дата заполнения: <input type="date" name="user_date" value='2025-10-10'></p>
+            <p>Пароль: <input type="Password" name="password" size=9 value=""></p>
 
-        <p>
-            <input type="Reset" name="Reset" value="Обновить">
-            <input type="Submit" name="submit" value="Отправить">
-        </p>
+            <input type="hidden" name="function" value="page">
+            <input type="hidden" name="page_id" value="3">
 
-    </form>
+            <p>
+                <input type="Reset" name="Reset" value="Обновить">
+                <input type="Submit" name="submit" value="Отправить">
+            </p>
+
+        </form>
+    </main>
 </body>
 
 </html>

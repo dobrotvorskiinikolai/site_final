@@ -2,17 +2,25 @@
 <html lang="ru">
 
 <style>
-    .container {
-        width: 50%;
-        margin: 0 auto;
-    }
+  .container {
+    width: 50%;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
 
-    .text-container {
-        width: 80%;
-        max-width: 900px;
-        border: 1px solid black;
-        padding: 15px;
-    }
+  }
+
+  .text-container {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 900px;
+    border: 1px solid black;
+    padding: 15px;
+  }
 </style>
 
 <head>
@@ -24,9 +32,6 @@
 
 <body id="page-top">
   <header class="site-header">
-    <a class="logo-link" href="index.html">
-      <img src="images/logo.png" alt="Логотип" class="logo" />
-    </a>
     <nav class="main-nav">
       <a href="index.html" class='active' data-page="index">Главная </a>
       <a href="about.html" data-page="about">О сайте</a>
@@ -44,15 +49,15 @@
   </header>
 
   <main class="container">
-    <h1 align="center">Добро пожаловать</h1>
-    <div align="center" class="text-container">
+    <h1>Добро пожаловать</h1>
+    <div class="text-container">
       <p>HTML (HyperText Markup Language) — это язык разметки, с помощью которого создаются веб-страницы.
-      Он определяет структуру и содержание страницы: где будет текст, изображение, ссылка, таблица или видео. HTML не
-      является языком программирования — он не выполняет действий, а описывает, как информация должна быть
-      представлена
-      в браузере. Основой HTML являются теги — специальные элементы в угловых скобках, например
-      .В сочетании с CSS (оформление) и JavaScript (динамика) HTML формирует
-      основу любого современного сайта.
+        Он определяет структуру и содержание страницы: где будет текст, изображение, ссылка, таблица или видео. HTML не
+        является языком программирования — он не выполняет действий, а описывает, как информация должна быть
+        представлена
+        в браузере. Основой HTML являются теги — специальные элементы в угловых скобках, например
+        .В сочетании с CSS (оформление) и JavaScript (динамика) HTML формирует
+        основу любого современного сайта.
       </p>
     </div>
   </main>

@@ -10,9 +10,6 @@
 
 <body>
     <header class="site-header">
-        <a class="logo-link" href="index.html">
-            <img src="images/logo.png" alt="Логотип" class="logo">
-        </a>
         <nav class="main-nav">
             <a href="index.html" data-page="index">Главная</a>
             <a href="about.html" data-page="about">О сайте</a>
@@ -28,18 +25,22 @@
             <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener">Что такое HTML?</a>
         </nav>
     </header>
-    <p class="header">(Исправленная задача) Найти корни квадратного уравнения</p>
-    <form action="https://www.google.com/search?" id="UserEnter" name="UserEnter" target="_blank">
-        <ol>
-            <li>Для поисковика:<input type="Text" name="search" value="search"></li>
-            <li>A: <input id="a" type="Number" name="A" size=20 value="1"></li>
-            <li>B: <input id="b" type="Number" name="B" size=20 value="2"></li>
-            <li>C: <input id="c" type="Number" name="V" size=20 value="-8"></li>
-            <li>Корни: <input id="result" type="text" name="result" size="40" value=""></li>
-        </ol>
-        <button id="check_result_button" type="button">Проверить</button>
-        <input type="Submit" name="submit" value="Отправить">
-    </form>
+
+    <main class="main-gallery">
+        <h3>Алгоритмическая задача</h3>
+        <p class="header">(Исправленная задача) Найти корни квадратного уравнения</p>
+        <form action="https://www.google.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+            <ol>
+                <li>Для поисковика:<input type="Text" name="search" value="search"></li>
+                <li>A: <input id="a" type="Number" name="A" size=20 value="1"></li>
+                <li>B: <input id="b" type="Number" name="B" size=20 value="2"></li>
+                <li>C: <input id="c" type="Number" name="V" size=20 value="-8"></li>
+                <li>Корни: <input id="result" type="text" name="result" size="40" value=""></li>
+            </ol>
+            <button id="check_result_button" type="button">Проверить</button>
+            <input type="Submit" name="submit" value="Отправить">
+        </form>
+    </main>
 </body>
 <script src="js/algo.js"></script>
 

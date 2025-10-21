@@ -10,9 +10,6 @@
 
 <body>
     <header class="site-header">
-        <a class="logo-link" href="index.html">
-            <img src="images/logo.png" alt="Логотип" class="logo">
-        </a>
         <nav class="main-nav">
             <a href="index.html" data-page="index">Главная</a>
             <a href="about.html" data-page="about">О сайте</a>
@@ -28,18 +25,27 @@
             <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener">Что такое HTML?</a>
         </nav>
     </header>
-    <h1>Галерея</h1>
-    <div>
-        <p>Картинка HTML</p>
-        <img src="images/1476977240.jpg" alt="Картинка 1">
-        <p>Картинка CSS</p>
-        <img src="images/1476977488.jpg" alt="Картинка 2">
-        <p>Пример кода HTML</p>
-        <img src="images/pre-tag-html.png" alt="Картинка 3" width="800" height="600">
-        <p>Картинка TAGS</p>
-        <img src="images/html-1.png" alt="Картинка 4">
-    </div>
-
+    <main class="main-gallery">
+        <h1 class="title">Галерея</h1>
+        <div class="list">
+            <div class="item" >
+                <p>Картинка HTML</p>
+                <img src="images/1476977240.jpg" alt="Картинка 1">
+            </div>
+            <div class="item">
+                <p>Картинка CSS</p>
+                <img src="images/1476977488.jpg" alt="Картинка 2">
+            </div>
+            <div class="item">
+                <p>Пример кода HTML</p>
+                <img src="images/pre-tag-html.png" alt="Картинка 3" width="800" height="600">
+            </div>
+            <div class="item special">
+                <p>Картинка TAGS</p>
+                <img src="images/html-1.png" alt="Картинка 4">
+            </div>
+        </div>
+    </main>
 
 </body>
 
