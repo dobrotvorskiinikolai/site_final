@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0
+}
+
+.site-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 20px;
+    background: #f2f2f2
+}
+
+.logo {
+    height: 48px
+}
+
+.main-nav a {
+    margin-right: 12px;
+    text-decoration: none;
+    color: #333;
+    padding: 6px 8px;
+    border-radius: 4px
+}
+
+.img-link {
+    display: inline-block;
+}
+
+.main-nav a.active {
+    background: #007bff;
+    color: white
+}
+
+.main-nav a:hover {
+    background: #e0e0e0
+}
+
+main {
+    padding: 20px
+}
+
+.header {
+    margin: 0 auto;
+}
+
+.algos {
+    align-items: center;
+}
+
+.thumb {
+    width: 100px;
+    max-width: 100px;
+    cursor: pointer;
+    border: 1px solid #ccc
+}
+
+.large-img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover
+}
+
+.bg-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-size: cover
+}
+
+.bg-table td,
+.bg-table th {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.8)
+}
+
+.small-note {
+    font-size: 0.9rem;
+    color: #555
+}
