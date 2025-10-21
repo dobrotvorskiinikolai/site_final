@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang='ru'>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Алгоритмическая задача</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="logo-link" href="index.html">
+            <img src="images/logo.png" alt="Логотип" class="logo">
+        </a>
+        <nav class="main-nav">
+            <a href="index.html" data-page="index">Главная</a>
+            <a href="about.html" data-page="about">О сайте</a>
+            <a href="gallery.html" data-page="gallery">Галерея</a>
+            <a href="passport_dom.html" data-page="passport_dom">Паспорт</a>
+            <a href="translit.html" data-page="translit">Таблица</a>
+            <a href="algo.html" class='active' data-page="algo">Решение алгоритмической задачи</a>
+            <a href="contact_form.html" data-page="contact">Контакты</a>
+            <a href="private_contact_form.html" data-page="contact">Личные контакты</a>
+            <a href="https://de.wikipedia.org/wiki/Hypertext_Markup_Language" class="img-link">
+                <img src="images/image_hyper.png" alt="Графическая гиперссылка" width="100" height="50">
+            </a>
+            <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener">Что такое HTML?</a>
+        </nav>
+    </header>
+    <p class="header">Даны вещественные числа: A, B, C. Определить, выполняются ли неравенства A < B < C или A < B> C и
+            какое именно неравенство выполняется</p>
+    <form action="https://www.google.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+        <ol>
+            <li>Для поисковика:<input type="Text" name="search" value="search"></li>
+            <li>A: <input id="a" type="Number" name="A" size=20 value="1"></li>
+            <li>B: <input id="b" type="Number" name="B" size=20 value="2"></li>
+            <li>C: <input id="c" type="Number" name="V" size=20 value="-8"></li>
+            <li>Результат решения: <input id="result" type="text" name="result" size="40" value=""></li>
+        </ol>
+        <button id="check_result_button" type="button">Проверить</button>
+        <input type="Submit" name="submit" value="Отправить">
+    </form>
+</body>
+<script src="js/algo.js"></script>
+
+</html>

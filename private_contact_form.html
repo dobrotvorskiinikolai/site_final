@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang='ru'>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Форма отправки личных данных</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="logo-link" href="index.html">
+            <img src="images/logo.png" alt="Логотип" class="logo">
+        </a>
+        <nav class="main-nav">
+            <a href="index.html" data-page="index">Главная</a>
+            <a href="about.html" data-page="about">О сайте</a>
+            <a href="gallery.html" data-page="gallery">Галерея</a>
+            <a href="passport_dom.html" data-page="passport_dom">Паспорт</a>
+            <a href="translit.html" data-page="translit">Таблица</a>
+            <a href="algo.html" data-page="algo">Решение алгоритмической задачи</a>
+            <a href="contact_form.html" data-page="contact">Контакты</a>
+            <a href="private_contact_form.html" class='active' data-page="contact">Личные контакты</a>
+            <a href="https://de.wikipedia.org/wiki/Hypertext_Markup_Language" class="img-link">
+                <img src="images/image_hyper.png" alt="Графическая гиперссылка" width="100" height="50">
+            </a>
+            <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener">Что такое HTML?</a>
+        </nav>
+    </header>
+    <h3>Форма: личные контактные данные</h3>
+
+    <form action="https://www.bing.com/search" method="get" target="_blank" name="PersonalData">
+        <!-- Параметр для поисковика -->
+        <input type="hidden" name="q" value="contact_form">
+
+        <p>Фамилия: <input type="text" name="last_name" value="" required></p>
+        <p>Имя: <input type="text" name="first_name" value="" required></p>
+        <p>Группа: <input type="text" name="group" value=""></p>
+        <p>Мобильный телефон: <input type="text" name="phone" value=""></p>
+        <p>Email: <input type="text" name="email" value=""></p>
+
+        <p>Дата отправки: <input type="date" name="send_date" value="2025-10-14"></p>
+        <p>Пароль для подтверждения: <input type="password" name="password" value=""></p>
+
+        <input type="hidden" name="form_type" value="contacts">
+
+        <p>
+            <input type="reset" value="Сбросить">
+            <input type="submit" value="Отправить">
+        </p>
+    </form>
+</body>
+
+</html>

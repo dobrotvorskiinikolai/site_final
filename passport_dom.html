@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang='ru'>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Паспорт</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="logo-link" href="index.html">
+            <img src="images/logo.png" alt="Логотип" class="logo">
+        </a>
+        <nav class="main-nav">
+            <a href="index.html" data-page="index">Главная</a>
+            <a href="about.html" data-page="about">О сайте</a>
+            <a href="gallery.html" data-page="gallery">Галерея</a>
+            <a href="passport_dom.html" class='active' data-page="passport_dom">Паспорт</a>
+            <a href="translit.html" data-page="translit">Таблица</a>
+            <a href="algo.html" data-page="algo">Решение алгоритмической задачи</a>
+            <a href="contact_form.html" data-page="contact">Контакты</a>
+            <a href="private_contact_form.html" data-page="contact">Личные контакты</a>
+            <a href="https://de.wikipedia.org/wiki/Hypertext_Markup_Language" class="img-link">
+                <img src="images/image_hyper.png" alt="Графическая гиперссылка" width="100" height="50">
+            </a>
+            <a href="https://en.wikipedia.org/wiki/HTML" target="_blank" rel="noopener">Что такое HTML?</a>
+        </nav>
+    </header>
+    <h1>Паспорт</h1>
+    <ul class="passport_list">
+        <li>Паспорт выдан: <i class="pas_data">ГУ МВД РОССИИ ПО ГОРОДУ МОСКВЕ</i></li>
+        <li>Дата выдачи:<i class="pas_data">22.08.1998</i></li>
+        <li>Код подразделения: <i class="pas_data">060-289</i></li>
+        <li>Фамилия: <i class="pas_data" id="surname">Добротворский</i></li>
+        <li>Имя: <i class="pas_data" id="name">Николай</i></li>
+        <li>Пол: <i class="pas_data">МУЖ.</i></li>
+        <li>Дата рождения: <i class="pas_data">15.06.1986</i></li>
+        <li>Место рождения: <i class="pas_data">Г. МОСКВА</i></li>
+    </ul>
+    <button id="edit_passport_button">Изменить на латиницу</button>
+    <div style="display: flex; justify-content: center;">
+        <img src="images/Screenshot_9.png" alt="Паспорт" style="padding: 5px; max-width: 95vw;">
+    </div>
+</body>
+<script src="js/edit_passport.js"></script>
+
+</html>
