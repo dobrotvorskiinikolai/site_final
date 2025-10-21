@@ -11,6 +11,7 @@ function check_result() {
     // } else {
     //     result.value = "Неверно! Ни одно из неравенств не выполняется";
     // }
+    // тест
     let dicsr = b ** 2 - 4 * a * c;
     console.log('discr', dicsr)
     if (dicsr > 0) {
